@@ -9,11 +9,38 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35f4bf16-554e-49c0-a4d5-701389847ae3" name="Changes" comment="" />
+    <list default="true" id="35f4bf16-554e-49c0-a4d5-701389847ae3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/flutter_develop_template.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_blame.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/home_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/home/api/home_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/message_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/message/api/message_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/api/personal_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/personal/api/personal_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/paging/paging_data_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/paging/paging_data_model.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/repository/base_repository.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/repository/base_repository.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/common/widget/notifier_widget.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/widget/notifier_widget.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module/home/view_model/home_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/home/view_model/home_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module/message/view_model/message_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/message/view_model/message_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module/personal/view_model/personal_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/personal/view_model/personal_vm.dart" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[/Users/hanxuguang/.android/avd/Nexus_5X_API_33.avd]" />
   <component name="FileTemplateManagerImpl">
@@ -40,6 +67,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
   <component name="ProjectId" id="2hIoaaDLy2rNjk41QEhNJrcC8A9" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -47,33 +77,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/hanxuguang/Documents/develop/technology_task/flutter/flutter_project/flutter_develop_template&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;flutter.settings&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Flutter.main_develop.dart.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "master",
+    "io.flutter.reload.alreadyRun": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/hanxuguang/Documents/develop/technology_task/flutter/flutter_project/flutter_develop_template/lib/module/personal",
+    "settings.editor.selected.configurable": "flutter.settings",
+    "show.migrate.to.gradle.popup": "false"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/module/personal" />
+      <recent name="$PROJECT_DIR$/lib/module/message" />
+      <recent name="$PROJECT_DIR$/lib/main" />
       <recent name="$PROJECT_DIR$/lib/common/res/string" />
       <recent name="$PROJECT_DIR$/lib/api" />
-      <recent name="$PROJECT_DIR$/lib/module/test_fluro" />
-      <recent name="$PROJECT_DIR$/lib/common/widget" />
-      <recent name="$PROJECT_DIR$/lib/module/home" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/lib/common/repository" />
+      <recent name="$PROJECT_DIR$/lib/module/personal/api" />
+      <recent name="$PROJECT_DIR$/lib/module/message/api" />
+      <recent name="$PROJECT_DIR$/lib/module/home/api" />
       <recent name="$PROJECT_DIR$/lib" />
-      <recent name="$PROJECT_DIR$/lib/common/res" />
-      <recent name="$PROJECT_DIR$/lib/common/router" />
-      <recent name="$PROJECT_DIR$/lib/common/paging" />
+      <recent name="$PROJECT_DIR$/lib/common/repository" />
     </key>
   </component>
   <component name="RunManager" selected="Flutter.main_develop.dart">

@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/cupertino.dart';
-import 'package:flutter_develop_template/api/personal_repository.dart';
+import 'package:flutter_develop_template/module/personal/api/personal_repository.dart';
 import 'package:flutter_develop_template/common/mvvm/base_view_model.dart';
 
 import '../../../common/widget/notifier_widget.dart';

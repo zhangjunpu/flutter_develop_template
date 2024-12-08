@@ -4,17 +4,15 @@ import 'package:dio/dio.dart';
 import 'package:flutter_develop_template/common/mvvm/base_view_model.dart';
 import 'package:flutter_develop_template/common/net/dio_client.dart';
 
-import '../common/net/dio_response.dart';
-import '../common/widget/notifier_widget.dart';
-import '../module/home/model/home_list_m.dart';
-import '../common/repository/base_repository.dart';
+import '../../../common/repository/base_repository.dart';
+import '../model/home_list_m.dart';
 
 class HomeRepository extends BaseRepository {
   /// 获取首页数据
   Future<PageViewModel> getHomeData({
     required PageViewModel pageViewModel,
     CancelToken? cancelToken,
-    int curPage = 0,
+    int curPage = 1,
   }) async =>
       httpPageRequest(
           pageViewModel: pageViewModel,
@@ -28,7 +26,7 @@ class HomeRepository extends BaseRepository {
   // Future<PageViewModel> getHomeData({
   //   required PageViewModel pageViewModel,
   //   CancelToken? cancelToken,
-  //   int curPage = 0,
+  //   int curPage = 1,
   // }) async {
   //   try {
   //     Response response = await DioClient().doGet(

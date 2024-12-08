@@ -4,7 +4,7 @@ import 'package:flutter_develop_template/common/mvvm/base_view_model.dart';
 import 'package:flutter_develop_template/common/widget/notifier_widget.dart';
 import 'package:flutter_develop_template/module/home/view/home_v.dart';
 
-import '../../../api/home_repository.dart';
+import '../api/home_repository.dart';
 
 class HomeViewModel extends PageViewModel<HomeViewState> {
   CancelToken? cancelToken;
@@ -43,7 +43,7 @@ class HomeViewModel extends PageViewModel<HomeViewState> {
     PageViewModel viewModel = await HomeRepository().getHomeData(
         pageViewModel: this,
         cancelToken: cancelToken,
-        curPage: params?['curPage'] ?? 0
+        curPage: params?['curPage'] ?? 1
     );
     pageDataModel = viewModel.pageDataModel;
     pageDataModel?.refreshState();

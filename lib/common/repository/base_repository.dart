@@ -19,7 +19,7 @@ class BaseRepository {
     required Future<Response> Function() future,
     required JsonCoverEntity jsonCoverEntity,
     CancelToken? cancelToken,
-    int curPage = 0,
+    int curPage = 1,
   }) async {
     try {
       Response response = await future();
@@ -56,7 +56,7 @@ class BaseRepository {
     required Future<Response> Function() future,
     required JsonCoverEntity jsonCoverEntity,
     CancelToken? cancelToken,
-    int curPage = 0,
+    int curPage = 1,
   }) async {
     try {
       Response response = await future();
@@ -71,7 +71,9 @@ class BaseRepository {
         /// 分页代码
         /// ViewModel 和 Model 相互持有代码，写着 correlationPaging() 里面
         pageViewModel.pageDataModel?.correlationPaging(
-            pageViewModel, jsonCoverEntity(response.data) as dynamic);
+            pageViewModel, 
+            jsonCoverEntity(response.data) as dynamic, 
+        );
       } else {
         /// 请求成功，但业务不通过，比如没有权限
         pageViewModel.pageDataModel?.type = NotifierResultType.unauthorized;

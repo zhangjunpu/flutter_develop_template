@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <compositeConfiguration>
           <compositeBuild compositeDefinitionSource="SCRIPT">
             <builds>
-              <build path="$USER_HOME$/Documents/develop/flutter/flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" name="gradle">
+              <build path="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" name="gradle">
                 <projects>
-                  <project path="$USER_HOME$/Documents/develop/flutter/flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" />
+                  <project path="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" />
                 </projects>
               </build>
             </builds>
           </compositeBuild>
         </compositeConfiguration>
-        <option name="testRunner" value="GRADLE" />
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="testRunner" value="CHOOSE_PER_TEST" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="gradleHome" value="$USER_HOME$/Documents/gradle_depository/gradle-7.5" />
-        <option name="gradleJvm" value="jbr-17" />
+        <option name="gradleJvm" value="17" />
         <option name="modules">
           <set>
-            <option value="$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/package_info_plus-4.2.0/android" />
+            <option value="$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/package_info_plus-8.0.2/android" />
             <option value="$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/sentry_flutter-7.20.2/android" />
+            <option value="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" />
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$USER_HOME$/Documents/develop/flutter/flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/gradle" />
           </set>
         </option>
+        <option name="resolveExternalAnnotations" value="false" />
       </GradleProjectSettings>
     </option>
   </component>

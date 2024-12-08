@@ -1,6 +1,6 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_develop_template/api/message_repository.dart';
+import 'package:flutter_develop_template/module/message/api/message_repository.dart';
 import 'package:flutter_develop_template/common/mvvm/base_view_model.dart';
 import 'package:flutter_develop_template/common/paging/paging_data_model.dart';
 
@@ -47,7 +47,7 @@ class MessageViewModel extends PageViewModel<MessageViewState> {
     PageViewModel viewModel = await MessageRepository().getMessageData(
         pageViewModel: this,
         cancelToken: cancelToken,
-        curPage: params?['curPage'] ?? 0
+        curPage: params?['curPage'] ?? 1,  
     );
     pageDataModel = viewModel.pageDataModel;
 

@@ -57,7 +57,7 @@ class PageDataModel<T, L extends BasePagingModel> extends BaseChangeNotifier {
 
   PageDataModel({
     this.data,
-    this.curPage = 0,
+    this.curPage = 1,
     this.pageCount = 0,
     this.size = 0,
     this.total = 0,
@@ -72,19 +72,20 @@ class PageDataModel<T, L extends BasePagingModel> extends BaseChangeNotifier {
   /// 这块是在继承 PageViewModel类 中使用的
   /// 刷新/加载更多 后，重新赋值最新的 分页数据
   void bindingPaging(
-      PageViewModel currentPageViewModel,
-      PageDataModel originalPageDataModel,
-      PagingDataModel originalPagingDataModel,
-      PageViewModel originalPageViewModel,
-      ) {
+    PageViewModel currentPageViewModel,
+    PageDataModel originalPageDataModel,
+    PagingDataModel originalPagingDataModel,
+    PageViewModel originalPageViewModel,
+  ) {
     originalPageDataModel.pagingDataModel = originalPagingDataModel;
+
+    var list = (currentPageViewModel.pageDataModel?.data.datas as List<BasePagingItem>?) ?? [];
     originalPagingDataModel
-      ..curPage = currentPageViewModel.pageDataModel?.curPage ?? 0
       ..pageCount = currentPageViewModel.pageDataModel?.pageCount ?? 0
       ..total = currentPageViewModel.pageDataModel?.total ?? 0
       ..size = currentPageViewModel.pageDataModel?.size ?? 0
       ..data = currentPageViewModel.pageDataModel
-      ..listData.addAll((currentPageViewModel.pageDataModel?.data.datas as List<BasePagingItem>?) ?? [])
+      ..listData.addAll(list)
       ..pageDataModel = originalPageDataModel
       ..pageViewModel = originalPageViewModel;
   }
@@ -92,16 +93,18 @@ class PageDataModel<T, L extends BasePagingModel> extends BaseChangeNotifier {
 
   /// 这块是在 请求接口方法里 中使用的
   /// 将请求的数据 分页数据，赋值给 PageDataModel
-  void correlationPaging(PageViewModel pageViewModel, BasePagingModel data) {
+  void correlationPaging(
+    PageViewModel pageViewModel,
+    BasePagingModel data, 
+  ) {
 
     /// ViewModel 和 Model 相互持有
     data.vm = pageViewModel;
     pageViewModel.pageDataModel?.data = data;
 
-    pageViewModel.pageDataModel?.curPage = data.curPage;
-    pageViewModel.pageDataModel?.pageCount = data.pageCount;
-    pageViewModel.pageDataModel?.size = data.size;
-    pageViewModel.pageDataModel?.total = data.total;
+    pageViewModel.pageDataModel?.pageCount = data.pageCount ?? 0;
+    pageViewModel.pageDataModel?.size = data.size ?? 0;
+    pageViewModel.pageDataModel?.total = data.total ?? 0;
   }
 }
 

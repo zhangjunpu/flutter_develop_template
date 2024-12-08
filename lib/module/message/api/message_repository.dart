@@ -2,8 +2,8 @@ import 'package:dio/dio.dart';
 import 'package:flutter_develop_template/common/repository/base_repository.dart';
 import 'package:flutter_develop_template/common/net/dio_client.dart';
 
-import '../common/mvvm/base_view_model.dart';
-import '../module/message/model/message_list_m.dart';
+import '../../../common/mvvm/base_view_model.dart';
+import '../model/message_list_m.dart';
 
 class MessageRepository extends BaseRepository {
 
@@ -11,7 +11,7 @@ class MessageRepository extends BaseRepository {
   Future<PageViewModel> getMessageData({
     required PageViewModel pageViewModel,
     CancelToken? cancelToken,
-    int curPage = 0,
+    int curPage = 1,
   }) async => httpPagingRequest(
       pageViewModel: pageViewModel,
       cancelToken: cancelToken,
@@ -25,7 +25,7 @@ class MessageRepository extends BaseRepository {
   // Future<PageViewModel> getMessageData({
   //   required PageViewModel pageViewModel,
   //   CancelToken? cancelToken,
-  //   int curPage = 0,
+  //   int curPage = 1,
   // }) async {
   //   try {
   //     Response response = await DioClient().doGet('article/list/$curPage/json', cancelToken: cancelToken);

@@ -1,3 +1,4 @@
+import 'package:flutter/material.dart';
 import 'package:flutter_develop_template/common/mvvm/base_change_notifier.dart';
 
 import '../mvvm/base_view_model.dart';
@@ -84,14 +85,19 @@ class PagingDataModel<DM extends BaseChangeNotifier, VM extends PageViewModel> {
 
   PagingState pagingState = PagingState.idle;
 
+  // 记录之前列表的长度
+  int originalListDataLength = 0;
+
   PagingDataModel(
-      {this.curPage = 0,
+      {this.curPage = 1,
       this.pageCount = 0,
       this.total = 0,
       this.size = 0,
       this.data,
       this.curPageField = 'curPage',
-      this.pageDataModel}) : listData = [];
+      this.pageDataModel}) :
+        listData = [],
+        originalListDataLength = 0;
 
   /// 这两个方法，由 RefreshLoadWidget 组件调用
 
@@ -99,16 +105,21 @@ class PagingDataModel<DM extends BaseChangeNotifier, VM extends PageViewModel> {
   Future<PagingState> loadListData() async {
     PagingState pagingState = PagingState.curLoading;
     pagingBehavior = PagingBehavior.load;
-    Map<String, dynamic>? param = {curPageField!: curPage++};
+    Map<String, dynamic>? param = {curPageField!: ++curPage};
     PageViewModel? currentPageViewModel = await pageViewModel?.requestData(params: param);
     if(currentPageViewModel?.pageDataModel?.type == NotifierResultType.success) {
+
       // 没有更多数据了
-      if(currentPageViewModel?.pageDataModel?.total == listData.length) {
+      if(currentPageViewModel?.pageDataModel?.total == listData.length ||
+        originalListDataLength >= listData.length) {
+        curPage = curPage > 1 ? --curPage : 1;
         pagingState = PagingState.loadNoData;
       } else {
         pagingState = PagingState.loadSuccess;
       }
+      originalListDataLength = listData.length;
     } else {
+      curPage = curPage > 1 ? --curPage : 1;
       pagingState = PagingState.loadFail;
     }
     return pagingState;
@@ -118,7 +129,9 @@ class PagingDataModel<DM extends BaseChangeNotifier, VM extends PageViewModel> {
   Future<PagingState> refreshListData() async {
     PagingState pagingState = PagingState.curRefreshing;
     pagingBehavior = PagingBehavior.refresh;
-    curPage = 0;
+    curPage = 1;
+    originalListDataLength = 0;
+    listData.clear();
     Map<String, dynamic>? param = {curPageField!: curPage};
     PageViewModel? currentPageViewModel = await pageViewModel?.requestData(params: param);
     if(currentPageViewModel?.pageDataModel?.type == NotifierResultType.success) {
