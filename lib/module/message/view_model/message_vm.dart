@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_develop_template/module/message/api/message_repository.dart';
 import 'package:flutter_develop_template/common/mvvm/base_view_model.dart';
 import 'package:flutter_develop_template/common/paging/paging_data_model.dart';
+import 'package:flutter_develop_template/module/message/model/message_list_m.dart';
 
 import '../../../common/widget/notifier_widget.dart';
 import '../view/message_v.dart';
@@ -42,13 +43,24 @@ class MessageViewModel extends PageViewModel<MessageViewState> {
     super.onDispose();
   }
 
+  /// 记录是否是第一次请求数据
+  bool initRequest = true;
+
   @override
   Future<PageViewModel?> requestData({Map<String, dynamic>? params}) async {
     PageViewModel viewModel = await MessageRepository().getMessageData(
         pageViewModel: this,
         cancelToken: cancelToken,
-        curPage: params?['curPage'] ?? 1,  
+        curPage: params?['curPage'] ?? 1,
     );
+
+    /// 第一次请求数据，不会触发 下拉刷新 和 上拉加载更多方法，通过标识，初始化一些Paging参数
+    if(initRequest) {
+      pagingDataModel?.originalListDataLength = (viewModel.pageDataModel?.data as MessageListModel).datas?.length ?? 0;
+    }
+
+    initRequest = false;
+
     pageDataModel = viewModel.pageDataModel;
 
     /// 分页代码

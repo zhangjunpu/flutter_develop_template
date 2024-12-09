@@ -108,10 +108,9 @@ class PagingDataModel<DM extends BaseChangeNotifier, VM extends PageViewModel> {
     Map<String, dynamic>? param = {curPageField!: ++curPage};
     PageViewModel? currentPageViewModel = await pageViewModel?.requestData(params: param);
     if(currentPageViewModel?.pageDataModel?.type == NotifierResultType.success) {
-
       // 没有更多数据了
       if(currentPageViewModel?.pageDataModel?.total == listData.length ||
-        originalListDataLength >= listData.length) {
+        originalListDataLength == listData.length) {
         curPage = curPage > 1 ? --curPage : 1;
         pagingState = PagingState.loadNoData;
       } else {
@@ -130,15 +129,17 @@ class PagingDataModel<DM extends BaseChangeNotifier, VM extends PageViewModel> {
     PagingState pagingState = PagingState.curRefreshing;
     pagingBehavior = PagingBehavior.refresh;
     curPage = 1;
-    originalListDataLength = 0;
     listData.clear();
     Map<String, dynamic>? param = {curPageField!: curPage};
     PageViewModel? currentPageViewModel = await pageViewModel?.requestData(params: param);
     if(currentPageViewModel?.pageDataModel?.type == NotifierResultType.success) {
+      originalListDataLength = listData.length;
       pagingState = PagingState.refreshSuccess;
     } else {
+      originalListDataLength = 0;
       pagingState = PagingState.refreshFail;
     }
+
     return pagingState;
   }
 
