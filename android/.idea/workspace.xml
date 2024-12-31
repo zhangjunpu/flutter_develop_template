@@ -10,17 +10,75 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3b6851b3-d10b-4a15-aa36-5e5db78db073" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../.idea/flutter_develop_template.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/git_toolbox_blame.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Dart_SDK.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../lib/main.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../lib/module/test_fluro/page_a2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/.name.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/modules.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/benchmarks___complex_layout.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___animated_list.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___app_bar_bottom.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___basic_app_bar.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___custom_a11y_traversal.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___custom_semantics.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___expansion_tile_sample.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/catalog___tabbed_app_bar.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/flutter_gallery.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/flutter_tools.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/flutter_view.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/hello_world.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___custom_render_box.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___gestures.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___hello_world.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___isolate.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___lifecycle.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___sectors.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___spinning_square.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/layers___styled_text.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___actions.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___card_collection.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___color_testing_demo.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___density.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___drag_and_drop.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___focus.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___hover.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___material_arc.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___overlay_geometry.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___page_view.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___raw_keyboard.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/manual_tests___text.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/plaform_view.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/platform_channel.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/runConfigurations/platform_channel_swift.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/ide_templates/intellij/.idea/vcs.xml.copy.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/app_shared/.idea/libraries/Dart_SDK.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/app_shared/.idea/libraries/KotlinJavaRuntime.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/app_shared/.idea/modules.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/app_shared/.idea/runConfigurations/main_dart.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/app_shared/.idea/workspace.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/module/common/.idea/libraries/Dart_SDK.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/module/common/.idea/modules.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/module/common/.idea/workspace.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/package/.idea/libraries/Dart_SDK.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/package/.idea/modules.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../flutter_profile/flutter_sdk/flutter_3.22.2/packages/flutter_tools/templates/package/.idea/workspace.xml.tmpl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/../.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main/application.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main/application.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main/main_develop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main/main_dev.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main/main_pre_release.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/main/main_pre.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/main/main_release.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/module/order/view/order_v.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/module/order/view/order_v.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/res/string/str_common.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/res/string/str_common.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/res/string/str_order.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/res/string/str_order.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lib/router/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/../lib/router/routers.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +88,7 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=/Users/hanxuguang/.android/avd/Pixel_8_API_33.avd)]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=PhysicalDevice, isTemplate=false, identifier=serial=qov4cqwgz9ss7dcy)]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -59,9 +117,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2juVBlMyZLmBh77WNch6edQBEKZ" />
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
@@ -81,6 +139,7 @@
     "last_opened_file_path": "/Users/hanxuguang/Documents/develop/technology_task/flutter/flutter_project/flutter_develop_template/android",
     "memory.settings.postsync.last.time.stamp": "1722236822025",
     "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle",
+    "settings.editor.splitter.proportion": "0.29429734",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>

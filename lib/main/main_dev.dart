@@ -2,7 +2,7 @@ import 'package:flutter_develop_template/main/application.dart';
 
 /// 开发环境 入口函数
 void main() => Application.runApplication(
-    envTag: EnvTag.develop, // 开发环境
+    envTag: EnvTag.dev, // 开发环境
     platform: ApplicationPlatform.app, // 手机应用
     baseUrl: 'https://www.wanandroid.com/', // 域名
     proxyEnable: false, // 是否开启抓包

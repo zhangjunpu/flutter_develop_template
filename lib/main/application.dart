@@ -20,13 +20,13 @@ enum ApplicationPlatform {
 
 enum EnvTag {
   /// 开发
-  develop,
+  dev,
 
-  /// 预发布
-  preRelease,
+  /// 预发
+  pre,
 
-  /// 正式
-  release,
+  /// 生产
+  prod,
 }
 
 /// 环境配置实体
@@ -35,7 +35,7 @@ class EnvConfig {
   static String baseUrl = '';
 
   /// 开发环境
-  static EnvTag envTag = EnvTag.develop;
+  static EnvTag envTag = EnvTag.dev;
 
   /// 是否开启抓包
   static bool proxyEnable = false;
@@ -92,7 +92,7 @@ class Application {
     ErrorWidget.builder = (FlutterErrorDetails flutterErrorDetails) {
       return Material(
         child: Center(
-          child: EnvConfig.envTag == EnvTag.develop
+          child: EnvConfig.envTag == EnvTag.dev
               ? Text(flutterErrorDetails.exceptionAsString())
               : Text(StrCommon.pleaseService),
         ),
@@ -129,7 +129,7 @@ class Application {
             options.dsn = EnvConfig.sentryDNS;
             options.tracesSampleRate = 1.0;
 
-            if (EnvConfig.envTag == EnvTag.develop) {
+            if (EnvConfig.envTag == EnvTag.dev) {
               /// 是否打印输出 Sentry 日志
               options.debug = true;
             }

@@ -6,7 +6,8 @@
 class StrOrder {
 
   static const String order = 'Order';
-  static const String noObjectToPageA = '携带 非对象类型 前往PageA';
+  static const String noObjectToPageA = '携带 非对象类型 前往PageA（拼接方式）';
+  static const String noObjectToPageA2 = '携带 非对象类型 前往PageA2（arguments方式）';
   static const String objectToPageB = '携带 对象类型 前往PageB';
 
 }

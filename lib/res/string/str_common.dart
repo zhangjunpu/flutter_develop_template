@@ -47,6 +47,7 @@ class StrCommon {
 
   ///--------------------------- 测试路由 -------------------------------
   static const String pageA = 'PageA';
+  static const String pageA2 = 'PageA2';
   static const String pageB = 'PageB';
   static const String pageC = 'PageC';
   static const String pageD = 'PageD';

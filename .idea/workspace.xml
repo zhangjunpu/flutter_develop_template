@@ -10,9 +10,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="35f4bf16-554e-49c0-a4d5-701389847ae3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/lib/module/test_fluro/page_a2.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/common/paging/paging_data_model.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/common/paging/paging_data_model.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module/message/view_model/message_vm.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/message/view_model/message_vm.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/05.gif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/deviceStreaming.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/application.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/application.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/main_develop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_dev.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/main_pre_release.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_pre.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main/main_release.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/module/order/view/order_v.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/order/view/order_v.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/res/string/str_common.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/res/string/str_common.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/res/string/str_order.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/res/string/str_order.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/router/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router/routers.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +78,8 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Flutter.main.dart.executor": "Run",
+    "Flutter.main_dev.dart.executor": "Run",
     "Flutter.main_develop.dart.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.cidr.known.project.marker": "true",
@@ -70,18 +91,18 @@
     "git-widget-placeholder": "master",
     "io.flutter.reload.alreadyRun": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/hanxuguang/Documents/develop/technology_task/flutter/flutter_project/flutter_develop_template",
+    "last_opened_file_path": "/Users/hanxuguang/Documents/develop/technology_task/flutter/flutter_project/flutter_develop_template/lib/module/test_fluro",
     "settings.editor.selected.configurable": "flutter.settings",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lib/module/test_fluro" />
+      <recent name="$PROJECT_DIR$/lib/main" />
       <recent name="$PROJECT_DIR$/lib/module/personal" />
       <recent name="$PROJECT_DIR$/lib/module/message" />
-      <recent name="$PROJECT_DIR$/lib/main" />
       <recent name="$PROJECT_DIR$/lib/common/res/string" />
-      <recent name="$PROJECT_DIR$/lib/api" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/lib/module/personal/api" />
@@ -91,23 +112,23 @@
       <recent name="$PROJECT_DIR$/lib/common/repository" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.main_develop.dart">
-    <configuration name="main_develop.dart" type="FlutterRunConfigurationType" factoryName="Flutter">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main/main_develop.dart" />
+  <component name="RunManager" selected="Flutter.main_dev.dart">
+    <configuration name="main.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="main_pre_release.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main/main_pre_release.dart" />
+    <configuration name="main_dev.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main/main_dev.dart" />
       <method v="2" />
     </configuration>
-    <configuration name="main_release.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
-      <option name="filePath" value="$PROJECT_DIR$/lib/main/main_release.dart" />
+    <configuration name="main_pre.dart" type="FlutterRunConfigurationType" factoryName="Flutter" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/main/main_pre.dart" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Flutter.main_pre_release.dart" />
-      <item itemvalue="Flutter.main_develop.dart" />
-      <item itemvalue="Flutter.main_release.dart" />
+      <item itemvalue="Flutter.main_pre.dart" />
+      <item itemvalue="Flutter.main_dev.dart" />
+      <item itemvalue="Flutter.main.dart" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />

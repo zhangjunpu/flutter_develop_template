@@ -78,7 +78,7 @@ class OrderViewState extends BaseStatefulPageState<OrderView, OrderViewModel> {
               children: [
                 ElevatedButton(
                   onPressed: () {
-                    /// 传递 非对象参数 方式
+                    /// 传递 非对象参数 方式一：通过 拼接 传参数 了解即可，推荐使用方式二
                     /// 在path后面，使用 '?' 拼接，再使用 '&' 分割
 
                     String name = 'jk';
@@ -106,6 +106,36 @@ class OrderViewState extends BaseStatefulPageState<OrderView, OrderViewModel> {
                     });
                   },
                   child: Text(StrOrder.noObjectToPageA),
+                ),
+                ElevatedButton(
+                  onPressed: () {
+                    /// 传递 非对象参数 方式二：通过 arguments 传参数，推荐
+
+                    String name = 'jk';
+                    String title = '张三';
+                    String url = 'https://www.baidu.com';
+                    int age = 99;
+                    double price = 9.9;
+                    bool flag = true;
+
+                    NavigatorUtil.push(context,
+                        Routers.pageA2,
+                        arguments: {
+                          'name': name,
+                          'title': title,
+                          'url': url,
+                          'age': age,
+                          'price': price,
+                          'flag': flag,
+                        }
+                    ).then((result){
+                      assert(() {
+                        debugPrint('PageA2 Pop的返回值：$result');
+                        return true;
+                      }());
+                    });
+                  },
+                  child: Text(StrOrder.noObjectToPageA2),
                 ),
                 ElevatedButton(
                   onPressed: () {

@@ -2,6 +2,7 @@ import 'package:fluro/fluro.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_develop_template/main/app.dart';
 import 'package:flutter_develop_template/module/test_fluro/page_a.dart';
+import 'package:flutter_develop_template/module/test_fluro/page_a2.dart';
 import 'package:flutter_develop_template/module/test_fluro/page_b.dart';
 import 'package:flutter_develop_template/module/test_fluro/page_c.dart';
 
@@ -34,6 +35,9 @@ class Routers {
   // 页面A
   static String pageA = '/pageA';
 
+  // 页面A2
+  static String pageA2 = '/pageA2';
+
   // 页面B
   static String pageB = '/pageB';
 
@@ -54,7 +58,7 @@ class Routers {
       ),
     );
 
-    // 页面A 需要 非对象类型 参数
+    // 页面A 需要 非对象类型 参数（通过 拼接 传参数）
     router.define(
       pageA,
       handler: Handler(
@@ -75,6 +79,35 @@ class Routers {
             age: int.parse(age),
             price: double.parse(price),
             flag: bool.parse(flag)
+          );
+
+        },
+      ),
+    );
+
+    // 页面A2 需要 非对象类型 参数（通过 arguments 传参数）
+    router.define(
+      pageA2,
+      handler: Handler(
+        handlerFunc: (context, _) {
+
+          // 获取路由参数
+          final arguments = context?.settings?.arguments as Map<String, dynamic>;
+
+          String? name = arguments['name'] as String?;
+          String? title = arguments['title'] as String?;
+          String? url = arguments['url'] as String?;
+          int? age = arguments['age'] as int?;
+          double? price = arguments['price'] as double?;
+          bool? flag = arguments['flag'] as bool?;
+
+          return PageA2View(
+              name: name,
+              title: title,
+              url: url,
+              age: age,
+              price: price,
+              flag: flag ?? false
           );
 
         },
