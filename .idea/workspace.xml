@@ -9,30 +9,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35f4bf16-554e-49c0-a4d5-701389847ae3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/lib/module/test_fluro/page_a2.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vscode/launch.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vscode/launch.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/05.gif" beforeDir="false" afterPath="$PROJECT_DIR$/05.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/caches/deviceStreaming.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/caches/deviceStreaming.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/gradle.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main/application.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/application.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main/main_develop.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_dev.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main/main_pre_release.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_pre.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main/main_release.dart" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/module/order/view/order_v.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/module/order/view/order_v.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/res/string/str_common.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/res/string/str_common.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/res/string/str_order.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/res/string/str_order.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/router/routers.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/router/routers.dart" afterDir="false" />
-    </list>
+    <list default="true" id="35f4bf16-554e-49c0-a4d5-701389847ae3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
