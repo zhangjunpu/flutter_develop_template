@@ -29,11 +29,11 @@
 
 **修改前**
 
-<img src="01.png" alt="01">
+<img src="imgs/01.png" alt="01">
 
 **修改后**
 
-<img src="02.png" alt="02">
+<img src="imgs/02.png" alt="02">
 
 ## MVVM
 
@@ -805,7 +805,7 @@ class HomeViewState extends BaseStatefulPageState<HomeView, HomeViewModel> {
 
 ## 演示效果
 
-<img src="03.gif" alt="03" width="300"><img src="04.gif" alt="04" width="300">
+<img src="imgs/03.gif" alt="03" width="300"><img src="imgs/04.gif" alt="04" width="300">
 
 
 ## 路由
@@ -1075,7 +1075,7 @@ String? getOriginalPath(Route<dynamic>? route) {
 
 ## 演示效果
 
-<img src="05.gif" alt="05" width="300">
+<img src="imgs/05.gif" alt="05" width="300">
 
 
 ## 全局通知
@@ -1218,7 +1218,7 @@ class _GlobalOperateProviderState extends State<GlobalOperateProvider> {
 
 ### 演示效果
 
-<img src="06.gif" alt="06" width="300">
+<img src="imgs/06.gif" alt="06" width="300">
 
 最好执行完全局操作后，将全局操作状态，**重置回 空闲**，我是拦截器里面，**这个在哪重置，大家随意**；
 
@@ -1433,7 +1433,7 @@ class Application {
 
 ### 演示效果
 
-<img src="07.gif" alt="07">
+<img src="imgs/07.gif" alt="07">
 
 ###  如何抓包
 
@@ -1925,7 +1925,7 @@ void main() => Application.runApplication(
 
 ## 演示效果
 
-<img src="08.gif" alt="08">
+<img src="imgs/08.gif" alt="08">
 
 # 参考文档
 
